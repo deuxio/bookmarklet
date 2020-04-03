@@ -1,0 +1,1 @@
+javascript:var el = document.querySelectorAll('div.r a h3'); var arr = []; for (var i=0; i< el.length; i++){ arr.push(el[i].textContent); }; alert(arr.join("\n"))
